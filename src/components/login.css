@@ -1,0 +1,51 @@
+.login-container {
+    margin: 10rem auto;
+    border: 1.5px solid rgb(212, 210, 210);
+    width: fit-content;
+    padding: 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+h1{
+    text-align: center;
+}
+
+.form-container {
+    margin: auto;
+    width: fit-content;
+
+}
+
+.form-item {
+    display: grid;
+    margin: 10px;
+}
+
+.button-container {
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-gap: 5px;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 5px;
+}
+
+button:active {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+input {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+label {
+    color: rgb(95, 93, 93);
+}
